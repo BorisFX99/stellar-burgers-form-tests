@@ -20,9 +20,9 @@
 
 ## Текущая реализация :
 
-1. Внесены изменения в файл компонента из библиотеки: `index.js`, находящийся в `node_modules\@ya.praktikum\react-developer-burger-ui-components\dist\index.js`.
+1. Внесены изменения в файл компонента из библиотеки: `input.js`, находящийся в `node_modules\@ya.praktikum\react-developer-burger-ui-components\dist\ui\input.js`.
 
-2. Был добавлен стиль `input_status_all_valid`, находящийся в `node_modules\@ya.praktikum\react-developer-burger-ui-components\dist\ui`. Стиль применяется если каждое поле формы валидно.
+2. Был добавлен стиль `input_status_all_valid`, в файл `input.css` находящийся в `node_modules\@ya.praktikum\react-developer-burger-ui-components\dist\ui\input.css`. Стиль применяется если каждое поле формы валидно.
 
 3. Описаны типы для нового пропса `allValid` компонента `input` в файле `input.d.ts` находящийся в `node_modules\@ya.praktikum\react-developer-burger-ui-components\dist\ui`.
 
