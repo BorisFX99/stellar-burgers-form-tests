@@ -101,6 +101,9 @@ export const Form: FC<IFormProps> = ({ setMode, className }) => {
     // Отмена submit только если несовпадение обоих паролей (для тестов)
     if (inputValues.password !== inputValues.repeatPassword) {
       setRepeatPassErr((prev) => ({ ...prev, passCopy: true }));
+      setTimeout(() => {
+        repeatPassRef.current?.focus();
+      }, 0);
       return;
     }
     setMode('complete');
@@ -158,7 +161,7 @@ export const Form: FC<IFormProps> = ({ setMode, className }) => {
         <Input
           ref={repeatPassRef}
           disabled={false}
-          data-testid="repeat-password-input"
+          data-testid='repeat-password-input'
           type={showRepeat ? 'text' : 'password'}
           icon={showRepeat ? 'HideIcon' : 'ShowIcon'}
           placeholder='Повторите пароль'
