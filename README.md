@@ -1,6 +1,6 @@
 # Практическая работа
 
-[Макет](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
+[Макет](<https://www.figma.com/design/dH8CEXUS49cXV2ESnwnnIP/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-Stellar-Burgers?node-id=0-1&p=f&t=cMDukS9WxSq5cryx-0>)
 
 
 # Запуск приложения:
